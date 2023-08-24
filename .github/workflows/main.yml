@@ -18,5 +18,4 @@ jobs:
         server: ${{ secrets.production_ftp_host }}
         username: ${{ secrets.production_ftp_username }}
         password: ${{ secrets.production_ftp_password }}
-        protocol: ftps
         server-dir: /
